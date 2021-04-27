@@ -15,7 +15,7 @@ h4,
 h5,
 h6 {
   font-family: 'Catamaran';
-  font-weight: 800 !important;
+  font-weight: 500 !important;
 }
 
 .btn-xl {
@@ -59,11 +59,13 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
+  background-image:url("../img/image.png");
+
 }
 
 header.masthead .masthead-content {
@@ -72,7 +74,7 @@ header.masthead .masthead-content {
 }
 
 header.masthead .masthead-content .masthead-heading {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 header.masthead .masthead-content .masthead-subheading {
@@ -116,24 +118,26 @@ header.masthead .bg-circle-4 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
+    padding-top: calc(7rem + 55px);
+    padding-bottom: 7rem;
   }
   header.masthead .masthead-content .masthead-heading {
-    font-size: 6rem;
+    font-size: 4rem;
   }
   header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
 .bg-primary {
-  background-color: #ee0979 !important;
+  background-color: #c94e12 !important;
 }
 
 .btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
+  /* background-color: #ee0979;
+  border-color: #ee0979; */
+  background-color: #c94e12;
+  border-color: #c94e12;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
